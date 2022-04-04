@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengubah satu data anggota Official dan Menekan Save</description>
+   <name>Ubah NIP Jadi Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d266cc23-345f-4218-95b2-b09dfedca5c9</testCaseGuid>
+</TestCaseEntity>
