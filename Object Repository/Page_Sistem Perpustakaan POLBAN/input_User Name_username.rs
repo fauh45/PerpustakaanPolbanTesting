@@ -3,16 +3,18 @@
    <description></description>
    <name>input_User Name_username</name>
    <tag></tag>
-   <elementGuidId>b8101780-84b8-4fb1-bc97-e4b5f3deec6c</elementGuidId>
+
+   <elementGuidId>00f8ea95-69e7-4f6e-a7a5-83dd5a130a47</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='username']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#username</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='username']</value>
+      </entry>
+
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

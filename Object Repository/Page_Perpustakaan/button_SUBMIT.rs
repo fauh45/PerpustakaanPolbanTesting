@@ -3,16 +3,18 @@
    <description></description>
    <name>button_SUBMIT</name>
    <tag></tag>
-   <elementGuidId>593eea60-a985-48db-a713-c5bbbc874be8</elementGuidId>
+
+   <elementGuidId>f1fe685e-daf6-413a-9c26-225c52c33ecc</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#btnSubmit</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnSubmit']</value>
+      </entry>
+
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

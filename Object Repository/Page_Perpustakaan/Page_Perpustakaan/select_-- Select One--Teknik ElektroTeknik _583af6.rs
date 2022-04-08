@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_User Management</name>
+   <name>select_-- Select One--Teknik ElektroTeknik _583af6</name>
    <tag></tag>
-
-   <elementGuidId>981c383e-e9e8-484f-a19e-997ed18feea2</elementGuidId>
+   <elementGuidId>3652ebd2-d2cf-4049-a9a5-931e5a310a17</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#BFB10001 > a</value>
+         <value>#majorsId</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='BFB10001']/a</value>
+         <value>//select[@id='majorsId']</value>
       </entry>
-
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -23,82 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/PerpustakaanWebApp/user</value>
+      <value>majorsId</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>majorsId</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-             User Management
-          </value>
+      <value>-- Select One--Teknik ElektroTeknik MesinTeknik SipilTeknik Konversi EnergiTeknik Refrigerasi dan Tata UdaraTeknik Komputer dan InformatikaTeknik KimiaAkuntansiAdministrasi Niaga</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;BFB10001&quot;)/a[1]</value>
+      <value>id(&quot;majorsId&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='majorsId']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='BFB10001']/a</value>
+      <value>//div[@id='formMember']/div[2]/div[2]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOG OUT'])[1]/following::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='WELCOME januar as ADMINISTRATOR POLBAN LIBRARY'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/PerpustakaanWebApp/user')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//section/ul/li[2]/a</value>
+      <value>//div[5]/div[2]/div[2]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/PerpustakaanWebApp/user' and (text() = '
-             User Management
-          ' or . = '
-             User Management
-          ')]</value>
+      <value>//select[@id = 'majorsId' and @name = 'majorsId' and (text() = '-- Select One--Teknik ElektroTeknik MesinTeknik SipilTeknik Konversi EnergiTeknik Refrigerasi dan Tata UdaraTeknik Komputer dan InformatikaTeknik KimiaAkuntansiAdministrasi Niaga' or . = '-- Select One--Teknik ElektroTeknik MesinTeknik SipilTeknik Konversi EnergiTeknik Refrigerasi dan Tata UdaraTeknik Komputer dan InformatikaTeknik KimiaAkuntansiAdministrasi Niaga')]</value>
    </webElementXpaths>
 </WebElementEntity>

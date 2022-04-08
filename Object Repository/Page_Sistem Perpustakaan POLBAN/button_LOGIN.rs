@@ -3,16 +3,18 @@
    <description></description>
    <name>button_LOGIN</name>
    <tag></tag>
-   <elementGuidId>b657e292-65d3-4a09-aadc-35ccdb1602a5</elementGuidId>
+
+   <elementGuidId>78e9eaf7-63bb-4496-98e8-01c74806cf44</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#btnLogin</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnLogin']</value>
+      </entry>
+
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

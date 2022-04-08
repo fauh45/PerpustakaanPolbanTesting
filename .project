@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C%%Kuliah%Semester 6%SUT%PerpustakaanPolbanTesting%Perpustakaan Polban.prj</name>
+
+	<name>%Users%marissanuramalia%Desktop%Coolyeah%Repositories%PerpustakaanPolbanTesting%Perpustakaan Polban.prj</name>
+
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +19,9 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1649405422229</id>
+
+			<id>1649378259382</id>
+
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,25 +30,9 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1649405422243</id>
-			<name></name>
-			<type>6</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1649428249656</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1649428249664</id>
+
+			<id>1649378259389</id>
+
 			<name></name>
 			<type>6</type>
 			<matcher>

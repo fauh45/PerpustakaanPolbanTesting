@@ -3,8 +3,7 @@
    <description></description>
    <name>a_User Management</name>
    <tag></tag>
-
-   <elementGuidId>981c383e-e9e8-484f-a19e-997ed18feea2</elementGuidId>
+   <elementGuidId>f41e37ec-4743-4ae8-99b6-d01a73df88ab</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -14,7 +13,6 @@
          <key>XPATH</key>
          <value>//li[@id='BFB10001']/a</value>
       </entry>
-
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

@@ -3,16 +3,18 @@
    <description></description>
    <name>span_User Management</name>
    <tag></tag>
-   <elementGuidId>52c42ba8-6aad-45a5-b998-b413ff1ce816</elementGuidId>
+
+   <elementGuidId>82c524d7-e61d-4f23-a801-a52836c33062</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//li[@id='BFB10001']/a/span</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#BFB10001 > a > span</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='BFB10001']/a/span</value>
+      </entry>
+
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
