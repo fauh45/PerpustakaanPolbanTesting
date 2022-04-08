@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengisi semua field pada fitur pencarian</description>
+   <name>Seluruh field diisi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afee60a7-a899-4f96-8218-92f40321242f</testCaseGuid>
+</TestCaseEntity>
