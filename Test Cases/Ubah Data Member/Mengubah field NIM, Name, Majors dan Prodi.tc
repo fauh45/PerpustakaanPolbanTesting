@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengubah semua field lalu klik Save
+Mengubah field NIM, Name, Majors dan Prodi sesuai validasi</description>
+   <name>Mengubah field NIM, Name, Majors dan Prodi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e57e40eb-dee8-4374-810c-a61174654473</testCaseGuid>
+</TestCaseEntity>
