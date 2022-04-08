@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengubah dua field lalu klik Save
+Mengubah field NIM dengan NIM yang tidak unique dan mengubah Name sesuai validasi</description>
+   <name>Mengubah NIM Menjadi Tidak Unik</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07a94a9e-65e6-4a25-8eeb-7f665db8cb48</testCaseGuid>
+</TestCaseEntity>

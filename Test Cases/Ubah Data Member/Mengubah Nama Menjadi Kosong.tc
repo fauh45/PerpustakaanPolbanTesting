@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengubah satu field lalu klik Save
+Mengubah field Name menjadi kosong</description>
+   <name>Mengubah Nama Menjadi Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56f00d70-5af1-44cf-92df-48a6cb48abc5</testCaseGuid>
+</TestCaseEntity>
