@@ -47,3 +47,5 @@ WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/button_Search'))
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Perpustakaan/div_MSTD0120AINF  Data berhasil ditampilkan'), 
     'MSTD0120AINF : Data berhasil ditampilkan.')
 
+WebUI.closeBrowser()
+
