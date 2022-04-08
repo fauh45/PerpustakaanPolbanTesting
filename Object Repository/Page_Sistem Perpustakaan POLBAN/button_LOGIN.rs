@@ -3,6 +3,7 @@
    <description></description>
    <name>button_LOGIN</name>
    <tag></tag>
+
    <elementGuidId>78e9eaf7-63bb-4496-98e8-01c74806cf44</elementGuidId>
    <selectorCollection>
       <entry>
@@ -13,6 +14,7 @@
          <key>XPATH</key>
          <value>//button[@id='btnLogin']</value>
       </entry>
+
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

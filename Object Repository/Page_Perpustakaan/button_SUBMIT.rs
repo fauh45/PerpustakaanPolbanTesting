@@ -3,6 +3,7 @@
    <description></description>
    <name>button_SUBMIT</name>
    <tag></tag>
+
    <elementGuidId>f1fe685e-daf6-413a-9c26-225c52c33ecc</elementGuidId>
    <selectorCollection>
       <entry>
@@ -13,6 +14,7 @@
          <key>XPATH</key>
          <value>//button[@id='btnSubmit']</value>
       </entry>
+
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

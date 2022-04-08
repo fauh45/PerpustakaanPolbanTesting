@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_User Management</name>
+   <name>div_-- Select One --ADMINISTRATORMEMBEROFFICIAL</name>
    <tag></tag>
-
-   <elementGuidId>981c383e-e9e8-484f-a19e-997ed18feea2</elementGuidId>
+   <elementGuidId>7334b9af-9dea-43a1-a6e9-0c7694d96c41</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#BFB10001 > a</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='BFB10001']/a</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
-
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -23,14 +21,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/PerpustakaanWebApp/user</value>
+      <value>col-md-8</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,67 +36,52 @@
       <name>text</name>
       <type>Main</type>
       <value>
-             User Management
-          </value>
+						
+							-- Select One --ADMINISTRATORMEMBEROFFICIAL
+						
+					</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;BFB10001&quot;)/a[1]</value>
+      <value>/html[1]/body[@class=&quot;skin-red-light sidebar-mini&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;box-body table-responsive&quot;]/div[@class=&quot;row col-md-12&quot;]/div[@class=&quot;col-md-8&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//li[@id='BFB10001']/a</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOG OUT'])[1]/following::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='WELCOME januar as ADMINISTRATOR POLBAN LIBRARY'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/PerpustakaanWebApp/user')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//section/ul/li[2]/a</value>
+      <value>//div[3]/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/PerpustakaanWebApp/user' and (text() = '
-             User Management
-          ' or . = '
-             User Management
-          ')]</value>
+      <value>//div[(text() = '
+						
+							-- Select One --ADMINISTRATORMEMBEROFFICIAL
+						
+					' or . = '
+						
+							-- Select One --ADMINISTRATORMEMBEROFFICIAL
+						
+					')]</value>
    </webElementXpaths>
 </WebElementEntity>

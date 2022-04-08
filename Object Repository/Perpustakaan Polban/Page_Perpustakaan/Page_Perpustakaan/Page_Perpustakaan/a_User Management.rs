@@ -3,18 +3,16 @@
    <description></description>
    <name>a_User Management</name>
    <tag></tag>
-
-   <elementGuidId>981c383e-e9e8-484f-a19e-997ed18feea2</elementGuidId>
+   <elementGuidId>ea718fb0-5bab-404e-8ef3-3afc5c24c4bc</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#BFB10001 > a</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//li[@id='BFB10001']/a</value>
       </entry>
-
+      <entry>
+         <key>CSS</key>
+         <value>#BFB10001 > a</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
