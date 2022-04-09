@@ -21,59 +21,55 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://103.31.39.208:8080/PerpustakaanWebApp/login')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/Page_Sistem Perpustakaan POLBAN/input_User Name_username'), 
-    0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/input_User Name_username'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/Page_Sistem Perpustakaan POLBAN/input_User Name_username'), 
-    'januar@email.com')
+WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/input_User Name_username'), 'januar@email.com')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/Page_Sistem Perpustakaan POLBAN/input_Password_password'), 
-    0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/input_Password_password'), 0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Perpustakaan/Page_Sistem Perpustakaan POLBAN/input_Password_password'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Perpustakaan/input_Password_password'), 'aeHFOx8jV/A=')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/Page_Sistem Perpustakaan POLBAN/button_LOGIN'), 
-    0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/button_LOGIN'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/Page_Sistem Perpustakaan POLBAN/button_LOGIN'))
+WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/button_LOGIN'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/a_User Management'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/a_User Management'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/a_User Management'))
+WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/a_User Management'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/input_Name_name'), '')
+WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/input_Name_name'), '')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/input_Name_name'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/input_Name_name'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/input_Name_name'), 'Manis')
+WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/input_Name_name'), 'Manis')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/button_Search'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/button_Search'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/button_Search'))
+WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/button_Search'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/i_MEMBER_fa fa-pencil-square-o'), 
-    0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/i_MEMBER_fa fa-pencil-square-o'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/i_MEMBER_fa fa-pencil-square-o'))
+WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/i_MEMBER_fa fa-pencil-square-o'))
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/input_Name_name'))
+WebUI.doubleClick(findTestObject('Object Repository/Page_Perpustakaan/input_Name_name'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/input_Name_name'), 'Manis')
+WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/input_Name_name'), 'Manis')
 
-WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/input__nim'), '1915240200')
+WebUI.setText(findTestObject('Object Repository/Page_Perpustakaan/input__nim'), '191524000')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/select_-- Select One--Teknik ElektroTeknik _583af6'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Perpustakaan/select_-- Select One--Teknik ElektroTeknik _583af6'), 
     'M06', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/select_-- Select One--DIII Teknik ListrikDI_0fcfc2'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Perpustakaan/select_-- Select One--DIII Teknik Informati_c3b333'), 
     'P22', true)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/button_SUBMIT'), 0)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Perpustakaan/button_SUBMIT'))
 
-WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/Page_Perpustakaan/button_SUBMIT'))
+WebUI.click(findTestObject('Object Repository/Page_Perpustakaan/button_SUBMIT'))
 
-WebUI.verifyElementText(findTestObject('Page_Perpustakaan/Page_Perpustakaan/div_Field Name should be filled in'), 'user\'s data successfully changed')
+WebUI.waitForElementPresent(findTestObject('Page_Perpustakaan/div_users data successfully saved'), 0)
+
+WebUI.verifyElementText(findTestObject('Page_Perpustakaan/div_users data successfully saved'), 'user\'s data successfully changed')
 
 WebUI.closeBrowser()
 

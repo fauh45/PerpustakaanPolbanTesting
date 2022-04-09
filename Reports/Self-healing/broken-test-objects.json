@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Perpustakaan/div_users data successfully saved",
+      "brokenLocator": "//div[@id\u003d\u0027toast-container\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[6]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Perpustakaan/div_users data successfully saved_position.png"
+    }
+  ]
 }
